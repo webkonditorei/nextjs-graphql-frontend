@@ -1,0 +1,11 @@
+.pickcardcontainer {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+}
+
+.pickcardcontainer > img {
+    border-radius: 10px;
+    overflow: hidden;
+    object-fit: cover;
+}
